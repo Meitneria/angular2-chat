@@ -1,10 +1,5 @@
-import {
-  Component,
-  OnInit,
-  Inject
-} from '@angular/core';
+import { Component} from '@angular/core';
 import { Observable } from 'rxjs';
-import { Thread } from '../thread/thread.model';
 import { ThreadsService } from './../thread/threads.service';
 
 @Component({

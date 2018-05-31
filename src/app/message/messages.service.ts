@@ -83,7 +83,6 @@ export class MessagesService {
         };
       })
       .subscribe(this.updates);
-
   }
 
   // an imperative function call to this action stream
@@ -101,7 +100,3 @@ export class MessagesService {
       });
   }
 }
-
-export const messagesServiceInjectables: Array<any> = [
-  MessagesService
-];
